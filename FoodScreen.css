@@ -1,0 +1,21 @@
+.restaurant-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .restaurant-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .restaurant-card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .restaurant-card p {
+    margin-bottom: 20px;
+  }
+  
